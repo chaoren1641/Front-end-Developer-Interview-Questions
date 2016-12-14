@@ -49,7 +49,7 @@ This file contains a number of front-end interview questions that can be used wh
 #### HTML Questions:
 
 * What does a `doctype` do?
-* What's the difference between standards mode and quirks mode?
+* What's the difference between full standards mode, almost standards mode and quirks mode?
 * What's the difference between HTML and XHTML?
 * Are there any problems with serving pages as `application/xhtml+xml`?
 * How do you serve a page with content in multiple languages?
@@ -64,7 +64,7 @@ This file contains a number of front-end interview questions that can be used wh
 
 #### CSS Questions:
 
-* What is the difference between classes and ID's in CSS?
+* What is the difference between classes and IDs in CSS?
 * What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 * Describe Floats and how they work.
 * Describe z-index and how stacking context is formed.
@@ -85,7 +85,7 @@ This file contains a number of front-end interview questions that can be used wh
   * Describe what you like and dislike about the CSS preprocessors you have used.
 * How would you implement a web design comp that uses non-standard fonts?
 * Explain how a browser determines what elements match a CSS selector.
-* Describe pseudo-elements and discuss what they are used for. 
+* Describe pseudo-elements and discuss what they are used for.
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
 * What does ```* { box-sizing: border-box; }``` do? What are its advantages?
 * List as many values for the display property that you can remember.
@@ -117,15 +117,16 @@ This file contains a number of front-end interview questions that can be used wh
 * Explain `Function.prototype.bind`.
 * When would you use `document.write()`?
 * What's the difference between feature detection, feature inference, and using the UA string?
-* Explain AJAX in as much detail as possible.
-* Explain how JSONP works (and how it's not really AJAX).
+* Explain Ajax in as much detail as possible.
+* What are the advantages and disadvantages of using Ajax?
+* Explain how JSONP works (and how it's not really Ajax).
 * Have you ever used JavaScript templating?
   * If so, what libraries have you used?
 * Explain "hoisting".
 * Describe event bubbling.
 * What's the difference between an "attribute" and a "property"?
 * Why is extending built-in JavaScript objects not a good idea?
-* Difference between document load event and document ready event?
+* Difference between document load event and document DOMContentLoaded event?
 * What is the difference between `==` and `===`?
 * Explain the same-origin policy with regards to JavaScript.
 * Make this work:
@@ -150,6 +151,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Explain the difference between synchronous and asynchronous functions.
 * What is event loop?
   * What is the difference between call stack and task queue?
+* Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`
 
 #### Testing Questions:
 
@@ -176,7 +178,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
   * Transfer-Encoding
   * ETag
   * X-Frame-Options
-* What are HTTP actions? List all HTTP actions that you know, and explain them.
+* What are HTTP methods? List all HTTP methods that you know, and explain them.
 
 #### Coding Questions:
 
@@ -238,6 +240,7 @@ console.log('three');
 
 * What's a cool project that you've recently worked on?
 * What are some things you like about the developer tools you use?
+* Who inspires you in the front-end community?
 * Do you have any pet projects? What kind?
 * What's your favorite feature of Internet Explorer?
 * How do you like your coffee?
